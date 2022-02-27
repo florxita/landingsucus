@@ -3,63 +3,70 @@
         {   "id": "Sucu-1",
             "name": "Echeveria",
             "image": "/img/echeveria.png",
-            "info" : "Es un tipo de suculenta con una forma muy peculiar similar a un huevo partido por la mitad. Sus hojas tienen un color entre el plateado y el verde azulado y, cuando florecen, lo hacen en invierno con unas espectaculares flores rojas y rosas muy vistosas."
+            "info" : "Nuestra protagonista de hoy forma parte del mundo de las suculentas y es una de las más usadas en decoración. Originaria de América, con hojas carnosas y con un crecimiento en forma de roseta. No están provistas de  allo. Sus hojas, se caracterizan por almacenar agua y nutrientes, aplanadas,de varias tonalidades y de carácter perenne. Las flores crecen de un largo tallo desarrollado en el centro de la roseta y, generalmente, son muy llamativas. La floración se produce a partir de primavera y suele durar hasta finales de verano."
         }
     ,
     
         {   "id": "Sucu-2",
             "name": "Lithops",
-            "image": "/img/echeveria.png",
+            "image": "/img/Liptos.png",
             "info" : "Quizá el nombre ya te dé una pista del aspecto de estas suculentas y es que si no están en flor no es muy difícil confundirlas con piedras. Eso sí, cuando florecen, sus impresionantes flores blancas y amarillas cubren casi por completo a la suculenta. Normalmente, crecen entre las piedras y su aspecto es lo que las ayuda a no ser devoradas por sus depredadores."
         }
     ,
     
         {   "id": "Sucu-3",
             "name": "Sempervivum",
-            "image": "/img/echeveria.png",
+            "image": "/img/Sempervivum.png",
             "info" : "Es un tipo de suculenta muy curiosa conocida por su capacidad de resistencia y de multiplicación. Y es que cuando una roseta de Sempervivum florece, automáticamente empieza a morir. Pero, aunque esto suene un poco trágico, lo realmente interesante es que la planta, antes de florecer, se ha encargado de producir nuevas rosetas, garantizando así su supervivencia."
         }
     ,
     
         {   "id": "Sucu-4",
             "name": "Cactáceas",
-            "image": "/img/echeveria.png",
-            "info" : "O dicho de otra manera… ¡cactus! Como te adelantábamos antes, los cactus no son más que una familia muy particular de suculentas. La variedad es inmensa, ¡son más de 1.600 especies! Las hay de diferentes tamaños y formas pero sus características principales son el almacenamiento de agua en el tronco y las espinas que recubren a estas plantas."
+            "image": "/img/cactus.png",
+            "info" : "O dicho de otra manera… ¡cactus!, los cactus no son más que una familia muy particular de suculentas. La variedad es inmensa, ¡son más de 1.600 especies! Las hay de diferentes tamaños y formas pero sus características principales son el almacenamiento de agua en el tronco y las espinas que recubren a estas plantas."
         }
     ,
     
         {   "id": "Sucu-5",
             "name": "Aloe",
-            "image": "/img/echeveria.png",
+            "image": "/img/aloe-vera.png",
             "info" : "Sin duda, otra de las suculentas más populares. La especie Aloe Vera es quizá la más conocida por las propiedades hidratantes, calmantes y cicatrizantes que se le atribuyen y que también la hacen ser muy apreciada en cosmética."
         }
     ,
     
         {   "id": "Sucu-6",
             "name": "Argyroderma",
-            "image": "/img/echeveria.png",
+            "image": "/img/Argyroderma.png",
             "info" : "Es un tipo de suculenta con una forma muy peculiar similar a un huevo partido por la mitad. Sus hojas tienen un color entre el plateado y el verde azulado y, cuando florecen, lo hacen en invierno con unas espectaculares flores rojas y rosas muy vistosas."
         }
     ,
     
         {   "id": "Sucu-7",
             "name": "Graptoveria",
-            "image": "/img/echeveria.png",
-            "info" : "Siendo las Echeverias y las Graptopetalum unas de las suculentas favoritas para decorar, no es de extrañar que consiguieran unirlas en la Graptoveria, un híbrido artificial que junta lo mejor de esas dos especies. Crecen en rosetones con características intermedias como unas manchas rojizas dentro de los pétalos o estambres reflejados. Si no consigues decidirte por una suculenta, la Graptoveria junta todo lo bueno de dos de las especies más populares, ¡quizá sea la tuya!"
+            "image": "/img/Graptoveria.png",
+            "info" : "Siendo las Echeverias y las Graptopetalum unas de las suculentas favoritas para decorar, no es de extrañar que consiguieran unirlas en la Graptoveria, un híbrido artificial que junta lo mejor de esas dos especies. Crecen en rosetones con características intermedias como unas manchas rojizas dentro de los pétalos o estambres reflejados. Si no consigues decidirte por una suculenta, la Graptoveria junta todo lo bueno de dos de las especies más populares."
         }
     ,
     
         {   "id": "Sucu-8",
             "name": "Graptopetalum",
-            "image": "/img/echeveria.png",
+            "image": "/img/graptopetalum.png",
             "info" : "Una suculenta muy bonita y decorativa que quedará genial en tus espacios interiores. Su forma de rosetón sin tallo es realmente elegante y por eso es una de las suculentas preferidas para decorar."
         }
     ,
     
         {   "id": "Sucu-9",
+            "name": "Haworthia fasciata",
+            "image": "/img/Haworthia-fasciata.png",
+            "info" : "También conocida como “planta cebra”, es un tipo de suculenta que apenas alcanza los 10cm de altura. Tiene unas hojas grandes y triangulares de color verde con rayas blancas muy características que le dan el nombre de “cebra”. Suele florecer en torno a octubre o noviembre con unas pequeñas flores tubulares de color blanco o rosado."
+        }
+        ,
+    
+        {   "id": "Sucu-10",
             "name": "Hatiora gaertneri",
-            "image": "/img/echeveria.png",
-            "info" : "Es un tipo de suculenta con una forma muy peculiar similar a un huevo partido por la mitad. Sus hojas tienen un color entre el plateado y el verde azulado y, cuando florecen, lo hacen en invierno con unas espectaculares flores rojas y rosas muy vistosas."
+            "image": "/img/Hatiora_gaertneri.png",
+            "info" : "Más conocida como “cactus de navidad”, es una planta de lo más llamativa que florece en invierno con unas bonitas flores rojas y rosas. Es una planta muy fácil de cultivar, con tallos planos compuestos de segmentos con bordes dentados. De cada uno aparecen nuevos tallos y, con el tiempo, la planta no puede mantenerse erguida y adquiere un porte colgante, quedando el tallo arqueado."
         }
     
 

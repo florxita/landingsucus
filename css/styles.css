@@ -98,48 +98,6 @@ nav{
 }
 .nav__toggle, .logo{
     justify-self: left;
- }
-.logo{
-    grid-column:2;
-    width: 180px;
-}
-/* /// MENU MOVIL /// */
-.bx-menu , .bx-x{
-   font-size: 4rem;
-   grid-column: 1;
-   cursor: pointer;
-}
-.nav__menu , .menu{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    letter-spacing: .5px;
-    text-align: center;
-}
-.nav__menu{  
-    position: fixed;
-    display: none;
-    width: 90%;
-    height: 100vh;
-    left: -150%;
-    background:var(--green);
-    padding: 7rem;
-    transition: .4s ease-in;
-    z-index: 1000;
-    font-weight: var(--bold-fw);
-}
-.show-menu{
-    left: 0;
-    display: flex;
-}
-.menu:before{
- content: url(/img/sucus\ garden\ logo.svg);
- width: 13rem;
- align-self: center;
-}
-
-.menu li{ 
-    transform: scale(1);
     cursor: pointer;
 }
 .menu li a span{
