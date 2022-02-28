@@ -16,7 +16,7 @@ html {
     overflow: hidden;
 }
 #bg{
-    background-image: url(/img/fondo_cemento.jpg);
+    background-image: url(https://github.com/florxita/landingsucus/tree/main/img/fondo_cemento.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -25,7 +25,7 @@ html {
 
 #home{
     background: var(--creamOp);
-    background-image: url(/img/plant\ siluette\ 3.svg);
+    background-image: url(https://github.com/florxita/landingsucus/tree/main/img/plant\ siluette\ 3.svg);
     background-size: cover;
     background-position: -6rem 4rem;
 }
@@ -40,12 +40,12 @@ html {
 }
 
 #features, #care{
-    background-image: url(/img/plant\ siluette.svg);
+    background-image: url(https://github.com/florxita/landingsucus/tree/main/img/plant\ siluette.svg);
     background-size: 120%;
     background-position: -5rem 23rem;
 }
 #type{
-    background-image: url(/img/plant\ siluette\ 2.svg);
+    background-image: url(https://github.com/florxita/landingsucus/tree/main/img/plant\ siluette\ 2.svg);
     background-size: 100%;
     background-position: 3rem -4rem;
 }
