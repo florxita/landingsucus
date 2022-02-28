@@ -15,8 +15,6 @@ html {
     scroll-snap-type: y mandatory;
     overflow: hidden;
 }
-
-
 #bg{
     background-image: url(/img/fondo_cemento.jpg);
     background-repeat: no-repeat;
@@ -59,7 +57,9 @@ html {
 h1, h2, h3, h4, h5 {
     font-weight: var(--title-fw);
 }
+
 /* ///////////////// tipografias movil //////////////////// */
+
 h1{
     font-family: var(--titleFamily);
     font-size: var(--h1-movil);
@@ -82,10 +82,11 @@ header{
     z-index: 1000;
     /* background: yellow; */
 }
-.scrolling-active{
+/* .scrolling-active{
     background:red;
-}
+} */
 /* /////////////     NAV    ////////////// */
+
 nav{
     position: fixed;
     display: grid;
@@ -96,13 +97,68 @@ nav{
     width: 100%;
     transition: .4s;
 }
-.nav__toggle, .logo{
+.nav__toggle, .logo , .logo a img{
     justify-self: left;
     cursor: pointer;
 }
+.logo{
+    grid-column:2;
+}
+.logo a{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 180px;
+}
+
+/* /// MENU MOVIL /// */
+.bx-menu , .bx-x{
+    font-size: 5rem;
+    grid-column: 1;
+    cursor: pointer;
+ }
+ .nav__close{
+    text-align: left;
+ }
+ .nav__menu , .menu{
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+     letter-spacing: .5px;
+     text-align: center;
+ }
+ .nav__menu{  
+     position: fixed;
+     display: none;
+     width: 100%;
+     height: 100vh;
+     top: 0;
+     left: -150%;
+     background:var(--green);
+     opacity: .97;
+     padding: 2rem;
+     transition: .4s ease-in;
+     z-index: 2000;
+     font-weight: var(--bold-fw);
+ }
+ .show-menu{
+     left: 0;
+     display: flex;
+ }
+ .menu:before{
+  content: url(/img/logo.svg);
+  width: 13rem;
+  align-self: center;
+ }
+ 
+ .menu li{ 
+     transform: scale(1);
+     cursor: pointer;
+ }
 .menu li a span{
     width: auto;
     padding: 1rem;
+    font-size: var(--h3-movil);
 }
 .menu li:hover{
     font-weight: 700;
@@ -136,21 +192,21 @@ span:focus-visible{
     scroll-snap-align: start;
     overflow-x: hidden;
     transition: ease-in;
-    /* transition: cubic-bezier(0.165, 0.84, 0.44, 1); */
     display: flex;
 }
 .section__content{
-    /* background-color: rgb(168, 119, 214); */
     padding: 8rem 0;
     margin: 0 2rem;
     display: grid;
-    grid: repeat(2, 1fr) / 1fr;
+    grid: repeat(2, auto) / auto;
     gap: 2rem;
 }
 .text__container{
     grid: 1 / 1;
     align-items: center;
-    /* background-color: rgb(127, 83, 168); */
+}
+.text__container .title{
+    margin: 0;
 }
 .img__container{
     grid: 2 / 1;
@@ -217,6 +273,7 @@ span:focus-visible{
     padding: 1rem;
 }
 .llave{
+    opacity: 0.3;
     grid-column: 2;
     grid-row: 3;
 }
@@ -311,32 +368,45 @@ span:focus-visible{
         display: grid;
         padding: 2rem;
         margin: auto;
-        grid: none / repeat(3, auto);
+        /* justify-items: flex-end; */
+        grid-template:1fr / repeat(3, auto);
         width:100%;
     }
-    .menu{
+    .nav__menu{  
+        position: initial;
         display: flex;
-        flex-direction: row;
+        width: auto;
+        height: auto;
+        top: initial;
+        left:initial;
+        background:none;
+        padding: 1rem 5rem 0 0;
         grid-column: 2/4;
+        grid-row: 1;
+        justify-self: end;
+        z-index: 50;
+    }
+    .menu{
+        flex-direction: row;
     }
     .nav__toggle, .bx-x , .menu:before{
         display: none;
     }
-    
+    .menu li a span{
+        width: auto;
+        padding: 1rem;
+        font-size: initial;
+    }
     .logo{
         grid-column:1;
         align-self: center;
         justify-self: center;
+        z-index: 1000;
     }
-    .nav__menu{  
-        display: flex;
-        height: auto;
-        left: 0;
-        align-items: flex-end;
-        background:none;
-        padding: 1rem;
-        grid: 1 / 2;
+    .logo a{
+        width: 250px;
     }
+    
     #arrowUp{
         font-size:4rem;
         margin: 1rem;
